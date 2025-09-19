@@ -13,7 +13,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 # Configuration from environment variables
 BOT_TOKEN = os.getenv("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
-STREAM_INPUT = os.getenv("STREAM_INPUT", "https://crichd1.diwij76343.workers.dev/?v=sonyespnind")
+STREAM_INPUT = os.getenv("STREAM_INPUT", "https://d1zq5no55rw5ua.cloudfront.net/136742_hindi_hls_03dea3461951169ta-di_h264/720p.m3u8")
 RTMP_OUTPUT = os.getenv("RTMP", "rtmps://dc5-1.rtmp.t.me/s/gg")
 WEB_PORT = int(os.getenv("WEB_PORT", "8080"))
 
